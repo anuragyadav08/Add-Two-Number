@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-  int a,b,c;
+  int num1,num2,sum;
   printf("Enter First Numbers :");
-  scanf("%d\n",&a);
+  scanf("%d\n",&num1);
    printf("Enter Second Numbers :");
-  scanf("%d\n",&b);
-  c=a+b;
-  printf("Sum of %d and %d is :%d",a,b,c);
+  scanf("%d\n",&num2);
+  sum=num1+num2;
+  printf("Sum of %d and %d is :%d",num1,num2,sum);
   getch();
 }
