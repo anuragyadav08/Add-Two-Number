@@ -3,8 +3,10 @@
 void main()
 {
   int a,b,c;
-  printf("Enter Numbers :");
-  scanf("%d%d",&a&b);
+  printf("Enter First Numbers :");
+  scanf("%d\n",&a);
+   printf("Enter Second Numbers :");
+  scanf("%d\n",&b);
   c=a+b;
   printf("Sum of %d and %d is :%d",a,b,c);
   getch();
